@@ -10,7 +10,7 @@
         <connection-url>jdbc:h2:mem:arquillian;DB_CLOSE_DELAY=-1</connection-url>
         <driver>h2</driver>
     </datasource>-->
-    <datasource jta="true" jndi-name="java:/jpatestdb" pool-name="jpatestdb" enabled="true" use-ccm="true">
+    <datasource jta="false" jndi-name="java:/jpatestdb" pool-name="jpatestdb" enabled="true" use-ccm="true">
         <connection-url>jdbc:mysql://localhost:3306/jpatestdb</connection-url>
         <driver-class>com.mysql.jdbc.Driver</driver-class>
         <driver>mysql-connector-java-5.1.34-bin.jar_com.mysql.jdbc.Driver_5_1</driver>

@@ -50,7 +50,7 @@
         </configuration>
     </container>
     
-    <container qualifier="wildfly-10-remote" default="true">
+    <container qualifier="wildfly-remote" default="true">
         <configuration>
             <property name="managementAddress">127.0.0.1</property>
             <property name="managementPort">9990</property>
